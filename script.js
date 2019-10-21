@@ -91,10 +91,15 @@ btn.addEventListener('click',work);
 function work(){
   const number = parseInt(prompt('Enter the number: '));
 console.log(number);
+if(!number && number!=0)
+   alert('No Input');
+else if(number==0)
+   alert(number+' : Zero');
+else{
 let figure = new Convert(number);
 let word =figure.word.reverse();
 console.log(word.join(''));
 alert(number +' : '+ word.join(''));
-  
+  }
 }
 

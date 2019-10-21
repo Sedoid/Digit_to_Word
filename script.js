@@ -68,7 +68,7 @@ class Convert{
              if (this.word[0] == " ")
                 this.word.push(unit[value]+ ' Hundred ');
                 else
-                this.word.push(unit[value]+ ' Hundred '); 
+                this.word.push(unit[value]+ ' Hundred and'); 
         }
                 
         if(this.digit.length )
